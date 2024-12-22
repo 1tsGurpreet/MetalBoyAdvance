@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		539448042D17C35B002DB41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539447E02D17C35A002DB41E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539447E72D17C35A002DB41E;
+			remoteInfo = MetalGurpBoyAdv;
+		};
+		5394480E2D17C35B002DB41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539447E02D17C35A002DB41E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539447E72D17C35A002DB41E;
+			remoteInfo = MetalGurpBoyAdv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		539447E82D17C35A002DB41E /* MetalGurpBoyAdv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGurpBoyAdv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		539448032D17C35B002DB41E /* MetalGurpBoyAdvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalGurpBoyAdvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5394480D2D17C35B002DB41E /* MetalGurpBoyAdvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalGurpBoyAdvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		539447EA2D17C35A002DB41E /* MetalGurpBoyAdv */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetalGurpBoyAdv;
+			sourceTree = "<group>";
+		};
+		539448062D17C35B002DB41E /* MetalGurpBoyAdvTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetalGurpBoyAdvTests;
+			sourceTree = "<group>";
+		};
+		539448102D17C35B002DB41E /* MetalGurpBoyAdvUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetalGurpBoyAdvUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		539447E52D17C35A002DB41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539448002D17C35B002DB41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5394480A2D17C35B002DB41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		539447DF2D17C35A002DB41E = {
+			isa = PBXGroup;
+			children = (
+				539447EA2D17C35A002DB41E /* MetalGurpBoyAdv */,
+				539448062D17C35B002DB41E /* MetalGurpBoyAdvTests */,
+				539448102D17C35B002DB41E /* MetalGurpBoyAdvUITests */,
+				539447E92D17C35A002DB41E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		539447E92D17C35A002DB41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				539447E82D17C35A002DB41E /* MetalGurpBoyAdv.app */,
+				539448032D17C35B002DB41E /* MetalGurpBoyAdvTests.xctest */,
+				5394480D2D17C35B002DB41E /* MetalGurpBoyAdvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		539447E72D17C35A002DB41E /* MetalGurpBoyAdv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539448172D17C35B002DB41E /* Build configuration list for PBXNativeTarget "MetalGurpBoyAdv" */;
+			buildPhases = (
+				539447E42D17C35A002DB41E /* Sources */,
+				539447E52D17C35A002DB41E /* Frameworks */,
+				539447E62D17C35A002DB41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				539447EA2D17C35A002DB41E /* MetalGurpBoyAdv */,
+			);
+			name = MetalGurpBoyAdv;
+			packageProductDependencies = (
+			);
+			productName = MetalGurpBoyAdv;
+			productReference = 539447E82D17C35A002DB41E /* MetalGurpBoyAdv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		539448022D17C35B002DB41E /* MetalGurpBoyAdvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5394481A2D17C35B002DB41E /* Build configuration list for PBXNativeTarget "MetalGurpBoyAdvTests" */;
+			buildPhases = (
+				539447FF2D17C35B002DB41E /* Sources */,
+				539448002D17C35B002DB41E /* Frameworks */,
+				539448012D17C35B002DB41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539448052D17C35B002DB41E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				539448062D17C35B002DB41E /* MetalGurpBoyAdvTests */,
+			);
+			name = MetalGurpBoyAdvTests;
+			packageProductDependencies = (
+			);
+			productName = MetalGurpBoyAdvTests;
+			productReference = 539448032D17C35B002DB41E /* MetalGurpBoyAdvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5394480C2D17C35B002DB41E /* MetalGurpBoyAdvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5394481D2D17C35B002DB41E /* Build configuration list for PBXNativeTarget "MetalGurpBoyAdvUITests" */;
+			buildPhases = (
+				539448092D17C35B002DB41E /* Sources */,
+				5394480A2D17C35B002DB41E /* Frameworks */,
+				5394480B2D17C35B002DB41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5394480F2D17C35B002DB41E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				539448102D17C35B002DB41E /* MetalGurpBoyAdvUITests */,
+			);
+			name = MetalGurpBoyAdvUITests;
+			packageProductDependencies = (
+			);
+			productName = MetalGurpBoyAdvUITests;
+			productReference = 5394480D2D17C35B002DB41E /* MetalGurpBoyAdvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		539447E02D17C35A002DB41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					539447E72D17C35A002DB41E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					539448022D17C35B002DB41E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 539447E72D17C35A002DB41E;
+					};
+					5394480C2D17C35B002DB41E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 539447E72D17C35A002DB41E;
+					};
+				};
+			};
+			buildConfigurationList = 539447E32D17C35A002DB41E /* Build configuration list for PBXProject "MetalGurpBoyAdv" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 539447DF2D17C35A002DB41E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 539447E92D17C35A002DB41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				539447E72D17C35A002DB41E /* MetalGurpBoyAdv */,
+				539448022D17C35B002DB41E /* MetalGurpBoyAdvTests */,
+				5394480C2D17C35B002DB41E /* MetalGurpBoyAdvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		539447E62D17C35A002DB41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539448012D17C35B002DB41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5394480B2D17C35B002DB41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		539447E42D17C35A002DB41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539447FF2D17C35B002DB41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539448092D17C35B002DB41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		539448052D17C35B002DB41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539447E72D17C35A002DB41E /* MetalGurpBoyAdv */;
+			targetProxy = 539448042D17C35B002DB41E /* PBXContainerItemProxy */;
+		};
+		5394480F2D17C35B002DB41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539447E72D17C35A002DB41E /* MetalGurpBoyAdv */;
+			targetProxy = 5394480E2D17C35B002DB41E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		539448152D17C35B002DB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		539448162D17C35B002DB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		539448182D17C35B002DB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalGurpBoyAdv/MetalGurpBoyAdv.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MetalGurpBoyAdv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		539448192D17C35B002DB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalGurpBoyAdv/MetalGurpBoyAdv.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MetalGurpBoyAdv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		5394481B2D17C35B002DB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MetalGurpBoyAdvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalGurpBoyAdv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetalGurpBoyAdv";
+			};
+			name = Debug;
+		};
+		5394481C2D17C35B002DB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MetalGurpBoyAdvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalGurpBoyAdv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetalGurpBoyAdv";
+			};
+			name = Release;
+		};
+		5394481E2D17C35B002DB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MetalGurpBoyAdvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = MetalGurpBoyAdv;
+			};
+			name = Debug;
+		};
+		5394481F2D17C35B002DB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MetalGurpBoyAdvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = MetalGurpBoyAdv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		539447E32D17C35A002DB41E /* Build configuration list for PBXProject "MetalGurpBoyAdv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539448152D17C35B002DB41E /* Debug */,
+				539448162D17C35B002DB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539448172D17C35B002DB41E /* Build configuration list for PBXNativeTarget "MetalGurpBoyAdv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539448182D17C35B002DB41E /* Debug */,
+				539448192D17C35B002DB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5394481A2D17C35B002DB41E /* Build configuration list for PBXNativeTarget "MetalGurpBoyAdvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5394481B2D17C35B002DB41E /* Debug */,
+				5394481C2D17C35B002DB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5394481D2D17C35B002DB41E /* Build configuration list for PBXNativeTarget "MetalGurpBoyAdvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5394481E2D17C35B002DB41E /* Debug */,
+				5394481F2D17C35B002DB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 539447E02D17C35A002DB41E /* Project object */;
+}
