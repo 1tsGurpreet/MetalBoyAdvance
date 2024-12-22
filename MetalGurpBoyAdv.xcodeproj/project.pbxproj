@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		539448272D17D90F002DB41E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 539448262D17D90B002DB41E /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		539448042D17C35B002DB41E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		539447E82D17C35A002DB41E /* MetalGurpBoyAdv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGurpBoyAdv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		539448032D17C35B002DB41E /* MetalGurpBoyAdvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalGurpBoyAdvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5394480D2D17C35B002DB41E /* MetalGurpBoyAdvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalGurpBoyAdvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		539448262D17D90B002DB41E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				539448062D17C35B002DB41E /* MetalGurpBoyAdvTests */,
 				539448102D17C35B002DB41E /* MetalGurpBoyAdvUITests */,
 				539447E92D17C35A002DB41E /* Products */,
+				539448262D17D90B002DB41E /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539448272D17D90F002DB41E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
